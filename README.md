@@ -12,8 +12,8 @@ Automating SQL Injection Vulnerability Verification through HTTP Response Length
     1. [vpn] – representing the VPN of the target web application,
     2. [cookie] – representing the cookie associated with the target web application, and 
     3. [security] – representing the security level of the target web application. 
-
-  Another variable, [url], is created to store the target web’s URL using the value of [vpn].
+    
+    Another variable, [url], is created to store the target web’s URL using the value of [vpn].
 
   The Python-based system prompts the user for these three variables, which are necessary for the simulation. First, the VPN of the target web is entered, followed by the cookie (which must be entered from the first character up to the one immediately preceding the semicolon (;)). Lastly, the user inputs the security level of the target (low, medium, high, or impossible). The system will then processes this data to simulate the SQL Injection attack on the target web application.
 
