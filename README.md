@@ -8,7 +8,8 @@ Automating SQL Injection Vulnerability Verification through HTTP Response Length
   The file [sqlTest.py] contains the main code for simulating SQL Injection attacks. The system utilizes the [requests] module, which allows for sending HTTP requests and receiving response objects containing the server’s data. Additionally, the [argparse] module is employed to create command-line interfaces for user input.
 
   Three key variables are initialized in [sqlTest.py]: 
-    1. [vpn] – representing the VPN of the target web application, 
+
+    1. [vpn] – representing the VPN of the target web application,
     2. [cookie] – representing the cookie associated with the target web application, and 
     3. [security] – representing the security level of the target web application. 
 
