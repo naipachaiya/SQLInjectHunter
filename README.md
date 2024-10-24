@@ -1,2 +1,2 @@
 # SQLInjectHunter
-โปรแกรมค้นหา SQL Injection โดยวิเคราะห์ HTTP Response Length
+Automating SQL Injection Vulnerability Verification through HTTP Response Length Analysis using Python
